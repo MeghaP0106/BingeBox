@@ -1,0 +1,84 @@
+/* Profile.css */
+.profile-page {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-header h1 {
+    margin: 0;
+  }
+  
+  .profile-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+  
+  .profile-info {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-info h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .info-row {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  .profile-reviews {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-reviews h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .no-reviews {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .review-title {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .review-title:hover {
+    color: #e509a3;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-content {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  

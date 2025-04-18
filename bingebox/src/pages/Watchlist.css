@@ -1,0 +1,67 @@
+/* Watchlist.css */
+.watchlist-page {
+    margin-bottom: 2rem;
+  }
+  
+  .watchlist-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .watchlist-header h1 {
+    margin: 0;
+  }
+  
+  .empty-watchlist {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .browse-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e50914;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .watchlist-count {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .watchlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .watchlist-item {
+    position: relative;
+  }
+  
+  .remove-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .watchlist-item:hover .remove-button {
+    opacity: 1;
+  }
+  
+  

@@ -1,0 +1,59 @@
+/* ContentCard.css */
+.content-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(108, 9, 62, 0.758);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .content-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .content-card a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .thumbnail {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 150%; /* 2:3 aspect ratio */
+    overflow: hidden;
+  }
+  
+  .thumbnail img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content-info {
+    padding: 1rem;
+  }
+  
+  .content-info h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .content-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .rating {
+    color: #e509a3;
+    font-weight: bold;
+  }
+  
